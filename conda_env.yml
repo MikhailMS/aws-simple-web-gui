@@ -1,0 +1,4 @@
+name: awsSimpleWebGui
+
+dependencies:
+  - python=3.11.5
