@@ -1,4 +1,4 @@
-FROM    tiangolo/uvicorn-gunicorn-fastapi:python3.11.6
+FROM    tiangolo/uvicorn-gunicorn-fastapi:python3.11-2023-11-13
 WORKDIR /app
 COPY    . /app
 RUN     pip install -r requirements.txt
